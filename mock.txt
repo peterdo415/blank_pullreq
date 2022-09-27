@@ -11,7 +11,7 @@
 * questions
   * id :integer
   * title :string
-  * content :string
+  * content :text
   * solved :boolean
   * user_id :integer
   * created_at :datetime(6)
@@ -19,7 +19,7 @@
 
 * answers
   * id :integer
-  * content :string
+  * content :text
   * user_id :integer
   * question_id :integer
   * created_at :datetime(6)
